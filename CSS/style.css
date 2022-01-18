@@ -1,0 +1,13 @@
+.header-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title {
+    margin: 0 10% !important;
+}
+
+.header-list {
+    display: flex;
+    margin: 0 10%;
+}
