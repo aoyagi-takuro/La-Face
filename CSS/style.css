@@ -54,7 +54,7 @@ header a {
 .section-concept {
     display: flex;
     justify-content: space-between;
-    padding-top: 48px;
+    padding: 48px 0;
     background-color: #F78812;
     align-items: center;
 }
@@ -63,7 +63,6 @@ header a {
     color: white;
     text-align: center;
     margin: 0 0 48px 48px;
-    line-height: 48px;
 }
 
 .concept-text {
@@ -72,6 +71,7 @@ header a {
 .concept-text-top {
     font-size: 32px;
     font-weight: bold;
+    margin-bottom: 16px;
 }
 
 .concept-img {
