@@ -45,7 +45,7 @@ header a {
     left: 64%;
 }
 
-.main-top-text p {
+.main-text {
     font-size: 24px;
     font-weight: bold;
     line-height: 48px;
@@ -77,4 +77,12 @@ header a {
 .concept-img {
     width: 400px;
     height: max-content;
+}
+
+.section-price {
+    display: flex;
+}
+
+.price-img {
+    height: 400px;
 }
