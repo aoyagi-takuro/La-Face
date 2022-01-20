@@ -51,3 +51,30 @@ header a {
     line-height: 48px;
 }
 
+.section-concept {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    background-color: #F78812;
+    align-items: center;
+}
+
+.concept-text {
+    color: white;
+    text-align: center;
+    margin: 0 0 48px 48px;
+    line-height: 48px;
+}
+
+.concept-text {
+    font-family: Century; 
+}
+.concept-text-top {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.concept-img {
+    width: 400px;
+    height: max-content;
+}
