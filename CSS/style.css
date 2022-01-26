@@ -205,3 +205,18 @@ header a {
     width: 60%;
     text-align: center;
 }
+
+footer {
+    text-align: center;   
+    height: 6rem;
+}    
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+}
+    
+.footer-item {
+    font-size: 20px;
+    padding: 1rem 1.5rem;
+}
