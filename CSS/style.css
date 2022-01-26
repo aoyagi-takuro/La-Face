@@ -51,7 +51,7 @@
     display: flex;
     justify-content: space-between;
     padding: 48px 0;
-    background-color: #F78812;
+    background-color: #C81912;
     align-items: center;
 }
 
@@ -69,8 +69,11 @@
     margin-bottom: 16px;
 }
 
+.concept-img-box {
+    margin: 0 auto;
+}
 .concept-img {
-    width: 400px;
+    width: 480px;
     height: max-content;
 }
 
