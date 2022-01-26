@@ -167,7 +167,7 @@
     display: flex;
     justify-content: space-between;
     padding: 48px 0;
-    background-color: #F78812;
+    background-color: #C81912;
 }
 
 .access-left {
@@ -218,4 +218,8 @@ footer {
 .footer-item {
     font-size: 20px;
     padding: 1rem 1.5rem;
+}
+
+.footer-bottom {
+    font-family: century;
 }
