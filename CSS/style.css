@@ -81,6 +81,8 @@ header a {
 .section-price {
     display: flex;
     width: 100%;
+    font-family: Century;
+
 }
 
 .price-left {
@@ -160,4 +162,46 @@ header a {
     font-family: century;
     font-weight: bold;
     color: red;
+}
+
+.section-access {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0;
+    background-color: #F78812;
+}
+
+.access-left {
+    width: 40%;
+    color: white;
+}
+
+.access-title {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: century;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.access-menu {
+    display: flex;
+    padding: 1.9rem 0 1.1rem 7rem;
+}
+.access-about {
+    font-family: Century;
+    color: white;
+}
+.access-item {
+    width: 13rem;
+    font-size: 1.5rem;
+}
+
+.hour-detail {
+    text-align: left;
+}
+
+.access-right {
+    width: 60%;
+    text-align: center;
 }
