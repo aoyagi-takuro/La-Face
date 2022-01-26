@@ -58,7 +58,7 @@
 .concept-text {
     color: white;
     text-align: center;
-    margin: 0 0 48px 48px;
+    margin: 0 auto 3rem;
     font-family: Century;
     width: 56%;
 }
@@ -81,17 +81,17 @@
     display: flex;
     width: 100%;
     font-family: Century;
-
+    margin-bottom: 3rem;
 }
 
 .price-left {
-    margin: 96px 0;
+    margin: auto;
+    padding-left: 3rem;
     width: 36%;
 }
 
 .price-img {
     width: 100%;
-    height: fit-content;
 }
 
 .price-right {
