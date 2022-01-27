@@ -23,11 +23,7 @@
     font-size: 20px;
     font-weight: bold;
     font-family: Century; 
-    padding: 0 32px;   
-}
-
-header a {
-    font-size: 24px;
+    padding: 0 1rem;   
 }
 
 .main-top {
@@ -55,26 +51,29 @@ header a {
     display: flex;
     justify-content: space-between;
     padding: 48px 0;
-    background-color: #F78812;
+    background-color: #C81912;
     align-items: center;
 }
 
 .concept-text {
     color: white;
     text-align: center;
-    margin: 0 0 48px 48px;
+    margin: 0 auto 3rem;
     font-family: Century;
+    font-weight: bold;
     width: 56%;
 }
 
 .concept-text-top {
     font-size: 40px;
-    font-weight: bold;
     margin-bottom: 16px;
 }
 
+.concept-img-box {
+    margin: 0 auto;
+}
 .concept-img {
-    width: 400px;
+    width: 480px;
     height: max-content;
 }
 
@@ -82,17 +81,17 @@ header a {
     display: flex;
     width: 100%;
     font-family: Century;
-
+    margin-bottom: 3rem;
 }
 
 .price-left {
-    margin: 96px 0;
+    margin: auto;
+    padding-left: 3rem;
     width: 36%;
 }
 
 .price-img {
     width: 100%;
-    height: fit-content;
 }
 
 .price-right {
@@ -109,8 +108,10 @@ header a {
 }
 
 .price-about {
-    padding: 0 48px;
+    margin: 0 3rem 3rem;
     height: 80%;
+    border-bottom: 2px solid;
+    padding-bottom: 3rem;
 }
 .price-text {
     font-size: 16px;
@@ -146,6 +147,7 @@ header a {
     display: flex;
     justify-content: space-between;
     padding: 4px 0;
+    font-weight: bold;
 }
 
 .right {
@@ -157,10 +159,7 @@ header a {
 
 .price-bottom {
     text-align: end;
-    padding-top: 48px;
-    font-size: 20px;
-    font-family: century;
-    font-weight: bold;
+    padding-right: 3rem;
     color: red;
 }
 
@@ -168,7 +167,7 @@ header a {
     display: flex;
     justify-content: space-between;
     padding: 48px 0;
-    background-color: #F78812;
+    background-color: #C81912;
 }
 
 .access-left {
@@ -190,11 +189,12 @@ header a {
 }
 .access-about {
     font-family: Century;
+    font-weight: bold;
     color: white;
 }
 .access-item {
     width: 13rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .hour-detail {
@@ -219,4 +219,8 @@ footer {
 .footer-item {
     font-size: 20px;
     padding: 1rem 1.5rem;
+}
+
+.footer-bottom {
+    font-family: century;
 }
