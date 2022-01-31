@@ -121,6 +121,9 @@
     .concept-img {
         width: 80%;
     }
+    .concept-text-bottom {
+        line-height: 1.7rem;
+    }
 }
 .section-price {
     display: flex;
