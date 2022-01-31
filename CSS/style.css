@@ -26,6 +26,24 @@
     padding: 0 1rem;   
 }
 
+@media screen and (max-width: 480px) {
+    .header-body {
+        display: block;
+        margin: 2rem 0 3rem 0;
+    }
+    .header-title {
+        text-align: center;
+        margin: 0 5% 1rem;
+    }
+    .header-list {
+        padding: revert;
+    }
+    .header-item {
+        font-size: 12px;
+        padding: 0 0.5rem;
+    }
+}
+
 .main-top {
     background-image: url(../img/giorgio-trovato-XBcURNhKeog-unsplash.jpg);
     background-repeat: no-repeat;
