@@ -111,6 +111,20 @@
     height: max-content;
 }
 
+@media screen and (max-width: 480px) {
+    .section-concept {
+        display: block;
+    }
+    .concept-img-box {
+        text-align: center;
+    }
+    .concept-img {
+        width: 80%;
+    }
+    .concept-text-bottom {
+        line-height: 1.7rem;
+    }
+}
 .section-price {
     display: flex;
     width: 100%;
