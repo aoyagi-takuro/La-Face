@@ -49,7 +49,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 480px;
+    height: 520px;
     text-align: end;
     background-position: center;
 }
@@ -85,12 +85,10 @@
     display: flex;
     justify-content: space-between;
     padding: 48px 0;
-    background-color: #C81912;
     align-items: center;
 }
 
 .concept-text {
-    color: white;
     text-align: center;
     margin: 0 auto 3rem;
     font-family: Century;
@@ -254,12 +252,10 @@
     display: flex;
     justify-content: space-between;
     padding: 48px 0;
-    background-color: #C81912;
 }
 
 .access-left {
     width: 40%;
-    color: white;
 }
 
 .access-title {
@@ -277,7 +273,7 @@
 .access-about {
     font-family: Century;
     font-weight: bold;
-    color: white;
+    /* color: white; */
 }
 .access-item {
     width: 13rem;
@@ -291,6 +287,46 @@
 .access-right {
     width: 60%;
     text-align: center;
+}
+
+.google-map-sp {
+    width: 360px;
+    height: 270px;
+    border: 0 ;
+
+}
+
+@media screen and (max-width: 480px) {
+    .section-access {
+        display: block;
+    }
+    .access-left {
+        width: 100%;
+    }
+    .access-about {
+        margin-bottom: 2rem;
+    }
+    .access-title {
+        margin-bottom: 24px;
+    }
+    .access-menu {
+        padding: 1.5rem;
+    }
+    .access-item {
+        width: 11rem;
+    }
+    .access-right {
+        display: none;
+    }
+    .access-sp-map {
+        text-align: center;
+    }
+
+}
+@media screen and (min-width: 481px) {
+    .access-sp-map {
+        display: none;
+    }
 }
 
 footer {
