@@ -69,11 +69,11 @@
 
 @media screen and (max-width: 480px) {
     .main-top {
-        height: 296px;
+        height: 15rem;
     }
     .main-top-text {
         position: absolute;
-        top: 33%;
+        top: 31%;
         left: 20%;
     }
     .main-text {
@@ -81,6 +81,12 @@
         line-height: unset;
     }
 }
+@media screen and (max-width: 410px) {
+    .main-top-text {
+        left: 13%;
+    }
+}
+
 .section-concept {
     display: flex;
     justify-content: space-between;
