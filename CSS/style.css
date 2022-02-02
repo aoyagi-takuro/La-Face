@@ -346,6 +346,25 @@
     }
 
 }
+@media screen and (max-width: 400px) {
+    .access-item {
+        width: 9rem;
+    }
+    .google-map-sp {
+        width: 340px;
+        height: 240px;
+    }
+}
+@media screen and (max-width: 389px) {
+    .access-item {
+        width: 8rem;
+    }
+    .google-map-sp {
+        width: 330px;
+        height: 230px;
+    }
+}
+
 @media screen and (min-width: 481px) {
     .access-sp-map {
         display: none;
