@@ -57,11 +57,11 @@
 .main-top-text {
     position: absolute;
     top: 50%;
-    left: 64%;
+    left: 50%;
 }
 
 .main-text {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     line-height: 48px;
@@ -72,24 +72,27 @@
         height: 15rem;
     }
     .main-top-text {
+        text-align: center;
         position: absolute;
-        top: 31%;
-        left: 20%;
+        top: 28%;
+        left: 4%;
     }
     .main-text {
-        font-size: 20px;
+        font-size: 24px;
         line-height: unset;
-    }
-}
-@media screen and (max-width: 410px) {
-    .main-top-text {
-        left: 13%;
     }
 }
 @media screen and (max-width: 400px) {
     .main-top-text {
-        top: 39%;
-        left: 11%;
+        position: absolute;
+        top: 30%;
+        left: 1%;
+    }
+}
+@media screen and (max-width: 390px) {
+    .main-top-text {
+        top: 38%;
+        left: 1%;
     }
 }
 
@@ -126,6 +129,9 @@
 @media screen and (max-width: 480px) {
     .section-concept {
         display: block;
+    }
+    .concept-text-top {
+        font-size: 28px;
     }
     .concept-img-box {
         text-align: center;
@@ -236,6 +242,9 @@
     .price-right {
         width: 100%;
     }
+    .price-title {
+        font-size: 28px;
+    }
     .price-text {
         border: none;
     }
@@ -331,12 +340,14 @@
     }
     .access-title {
         margin-bottom: 24px;
+        font-size: 28px;
     }
     .access-menu {
         padding: 1.5rem;
     }
     .access-item {
         width: 11rem;
+        font-size: 20px;
     }
     .access-right {
         display: none;
@@ -355,7 +366,7 @@
         height: 240px;
     }
 }
-@media screen and (max-width: 389px) {
+@media screen and (max-width: 390px) {
     .access-item {
         width: 8rem;
     }
