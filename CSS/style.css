@@ -130,6 +130,9 @@
     .section-concept {
         display: block;
     }
+    .concept-text-top {
+        font-size: 28px;
+    }
     .concept-img-box {
         text-align: center;
     }
@@ -239,6 +242,9 @@
     .price-right {
         width: 100%;
     }
+    .price-title {
+        font-size: 28px;
+    }
     .price-text {
         border: none;
     }
@@ -334,12 +340,14 @@
     }
     .access-title {
         margin-bottom: 24px;
+        font-size: 28px;
     }
     .access-menu {
         padding: 1.5rem;
     }
     .access-item {
         width: 11rem;
+        font-size: 20px;
     }
     .access-right {
         display: none;
