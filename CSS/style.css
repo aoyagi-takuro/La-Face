@@ -69,11 +69,11 @@
 
 @media screen and (max-width: 480px) {
     .main-top {
-        height: 296px;
+        height: 15rem;
     }
     .main-top-text {
         position: absolute;
-        top: 33%;
+        top: 31%;
         left: 20%;
     }
     .main-text {
@@ -81,6 +81,19 @@
         line-height: unset;
     }
 }
+@media screen and (max-width: 410px) {
+    .main-top-text {
+        left: 13%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .main-top-text {
+        top: 39%;
+        left: 11%;
+    }
+}
+
+
 .section-concept {
     display: flex;
     justify-content: space-between;
@@ -119,6 +132,7 @@
     }
     .concept-img {
         width: 80%;
+        height: auto;
     }
     .concept-text-bottom {
         line-height: 1.7rem;
@@ -250,6 +264,12 @@
 
 }
 
+@media screen and (max-width: 400px) {
+    .price-bottom {
+        text-align: center;
+        margin-right: 0;
+    }
+}
 .section-access {
     display: flex;
     justify-content: space-between;
@@ -326,6 +346,25 @@
     }
 
 }
+@media screen and (max-width: 400px) {
+    .access-item {
+        width: 9rem;
+    }
+    .google-map-sp {
+        width: 340px;
+        height: 240px;
+    }
+}
+@media screen and (max-width: 389px) {
+    .access-item {
+        width: 8rem;
+    }
+    .google-map-sp {
+        width: 330px;
+        height: 230px;
+    }
+}
+
 @media screen and (min-width: 481px) {
     .access-sp-map {
         display: none;
