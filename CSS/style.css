@@ -86,6 +86,7 @@
     justify-content: space-between;
     padding: 48px 0;
     align-items: center;
+    background-image: url(../img/background.png);
 }
 
 .concept-text {
@@ -128,6 +129,7 @@
     width: 100%;
     font-family: Century;
     margin-bottom: 3rem;
+    
 }
 
 .price-left {
@@ -252,6 +254,7 @@
     display: flex;
     justify-content: space-between;
     padding: 48px 0;
+    background-image: url(../img/background.png);
 }
 
 .access-left {
