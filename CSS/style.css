@@ -72,6 +72,11 @@
     height: 520px;
     text-align: end;
     background-position: center;
+
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
 }
 
 .main-top-text {
