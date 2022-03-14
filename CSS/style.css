@@ -152,11 +152,6 @@
     padding: 48px 0;
     align-items: center;
     background-image: url(../img/background.png);
-
-    /* animation-name:fadeUpAnime;
-    animation-duration:0.5s;
-    animation-fill-mode:forwards;
-    opacity:0; */
 }
 
 .concept-text {
@@ -166,27 +161,19 @@
     font-weight: bold;
     width: 56%;
 
-    /* animation-name:fadeUpAnime;
-    animation-duration:0.5s;
-    animation-fill-mode:forwards;
-    opacity:0; */
+    opacity: 0;
+    transition: 3s;
+    margin-left: 60px;
 }
-
-/* @keyframes fadeUpAnime{
-    from {
-      opacity: 0;
-      transform: translateY(100px);
-    }
-  
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+.concept-text.showUp {
+    opacity: 1;
+    margin-top: 0;
   }
+  
 .concept-text-top {
     font-size: 40px;
     margin-bottom: 16px;
-} */
+}
 
 .concept-img-box {
     margin: 0 auto;
