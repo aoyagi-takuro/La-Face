@@ -16,7 +16,7 @@
 
 <body>
     <header class="header-body">
-        <h1 class="header-title">La Face</h1>
+        <h1 class="header-title">LaFace</h1>
         <ul class="header-list">
             <li class="header-item"><a href="#concept">Concept</a></li>
             <li class="header-item"><a href="#price">Price</a></li>
@@ -46,7 +46,7 @@
                 <img src="img/concept-photo.jpg" class="concept-img">
             </div>
         </div>
-        <div id="price" class="section-price">
+        <div id="price" class="section-price" onscroll="イベントハンドラ">
             <div class="price-left"><img src="img/price-photo.jpg" class="price-img"></div>
             <div class="price-right">
                 <h2 class="price-title">Price</h2>
@@ -166,9 +166,9 @@
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="access-sp-map">
-                <iframe class="google-map-sp"
+                <iframe id="google-map-sp"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104161.20162670061!2d139.84493215820314!3d35.32988900000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60180c42955b0fc9%3A0x3e45dcc1701676e3!2z44Op44OV44Kn44Kk44K5!5e0!3m2!1sja!2sjp!4v1643719297960!5m2!1sja!2sjp"
-                     allowfullscreen="" loading="lazy"></iframe>
+                    allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </main>
@@ -187,7 +187,12 @@
         </div>
     </footer>
 
-    <script src = "index.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="jquery.inview.js" type="text/javascript"></script>
+    <script src="jquery.inview.min.js" type="text/javascript"></script>
+    <script src="index.js"></script>
+
 </body>
 
 </html>
